@@ -6,7 +6,7 @@ export const ClickEvent = () => {
     }
 
     return (
-        <div>
+        <div>x
             <button onClick={handleClick}>Click</button>
         </div>
     );
