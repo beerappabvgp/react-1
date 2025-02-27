@@ -8,12 +8,15 @@ import { Navbar } from "./components/Navbar"
 import { Props } from "./components/Props"
 import { SecondProp } from "./components/SecondProp"
 import { Users } from "./components/Users"
+
 function App() {
   const name = "anil";
   return (
     <div>
-
-      <Counter />
+      <Users />
+      {/* <Counter />
+      <Age age = {10} isVoted={false}/>
+      <Age age = {20} isVoted={true}/> */} 
       {/* <ClickEvent /> */}
       {/* <Age age={10} isVoted={false}/>
       <Age age={20} isVoted={false}/>
