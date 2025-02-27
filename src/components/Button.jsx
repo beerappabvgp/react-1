@@ -3,3 +3,7 @@ export const Button = () => {
         <button>This is a button</button>
     );
 }
+
+
+
+// add(1, 2)

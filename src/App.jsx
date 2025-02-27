@@ -13,7 +13,7 @@ function App() {
   const name = "anil";
   return (
     <div>
-      <Users />
+      {/* <Users /> */}
       {/* <Counter />
       <Age age = {10} isVoted={false}/>
       <Age age = {20} isVoted={true}/> */} 
@@ -37,6 +37,9 @@ function App() {
       <Navbar />
       <Navbar />
       <Button /> */}
+      {/* <Button /> */}
+      <Counter />
+      {/* <Counter /> */}
     </div>
   )
 }
